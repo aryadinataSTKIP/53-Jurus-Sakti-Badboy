@@ -241,68 +241,21 @@ Transfer ke
 085189209275
 </div>
 
-<a href="https://docs.google.com/forms" class="button">
-Upload Bukti Transfer
+<a 
+href="https://drive.google.com/file/d/1vB0WafUv6rtja4IzOabTrT_LAy6VBrb9/view?usp=drive_link"
+target="_blank"
+class="button"
+>
+Download E-Book Sekarang
 </a>
 
 </div>
 
 <div class="footer">
-© 2026 Pria Seratus Persen
+© 2026 INDOMARKETKU
 </div>
 
 </div>
-
-
-
-<!-- URGENCY COUNTDOWN -->
-<section style="margin-top:40px;text-align:center;">
-<h2 style="margin-bottom:10px;">Promo Berakhir Dalam</h2>
-<div id="countdown" style="font-size:28px;font-weight:700;color:#ffd000"></div>
-</section>
-
-<!-- FLOATING PAYMENT BUTTON -->
-<a href="#payment" style="position:fixed;bottom:20px;right:20px;background:#ffd000;color:black;padding:14px 20px;border-radius:999px;font-weight:700;text-decoration:none;box-shadow:0 10px 30px rgba(0,0,0,.5);z-index:999">
-Ambil Sekarang
-</a>
-
-<script>
-
-// Countdown
-var countDownDate = new Date();
-countDownDate.setHours(countDownDate.getHours() + 6);
-
-var x = setInterval(function() {
-
-var now = new Date().getTime();
-var distance = countDownDate - now;
-
-var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
-var seconds = Math.floor((distance % (1000 * 60)) / 1000);
-
-document.getElementById("countdown").innerHTML = hours + "h "
-+ minutes + "m " + seconds + "s ";
-
-if (distance < 0) {
-clearInterval(x);
-document.getElementById("countdown").innerHTML = "Promo Berakhir";
-}
-
-}, 1000);
-
-// Smooth Scroll
-
-document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-anchor.addEventListener('click', function (e) {
-e.preventDefault();
-document.querySelector(this.getAttribute('href')).scrollIntoView({
-behavior: 'smooth'
-});
-});
-});
-
-</script>
 
 </body>
 </html>
